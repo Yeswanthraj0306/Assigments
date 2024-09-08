@@ -34,7 +34,7 @@ public class LaunchBrowser {
 		driver.findElement(By.id("createLeadForm_generalPostalCode")).sendKeys("600126");
 		driver.findElement(By.id("createLeadForm_generalStateProvinceGeoId")).sendKeys("TAMILNADU");
 		driver.findElement(By.id("createLeadForm_generalCountryGeoId")).sendKeys("India");
-		//driver.findElement(By.className("smallSubmit")).click();
+		driver.findElement(By.className("smallSubmit")).click();
 		String title = driver.getTitle();
 		if (title.contains("Lead")) {
 			System.out.println("verified");
