@@ -3,7 +3,7 @@ package week3Day3;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class LeafTaps {
+public class LaunchBroweser {
 
 	public static void main(String[] args) {
 
