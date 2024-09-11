@@ -34,7 +34,6 @@ public class Leafground {
 		Thread.sleep(600);
 		driver.findElement(By.xpath("(//span[@class='ui-icon ui-icon-triangle-1-s ui-c'])[3]")).click();
 		driver.findElement(By.xpath("//li[text()='English']")).click();
-		//Thread.sleep(600);
 		driver.findElement(By.xpath("(//div[@class='ui-selectonemenu-trigger ui-state-default ui-corner-right'])[4]")).click();
 		driver.findElement(By.xpath("//li[text()='Two']")).click();
 		
