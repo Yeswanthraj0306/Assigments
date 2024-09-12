@@ -39,7 +39,7 @@ public class CheckBox {
 		city.sendKeys("Berlin");
 		driver.findElement(By.xpath("(//label[text()='Berlin'])[2]")).click();
 		driver.findElement(By.xpath("//a[@aria-label='Close']")).click();
-		driver.findElement(By.xpath("//ul[@data-label='Cities']")).click();
+	
 		
 
 	}
