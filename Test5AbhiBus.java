@@ -52,7 +52,9 @@ public class Test5AbhiBus {
 		String rupees = cost.getText();
 		System.out.println("The cost of Fares " + rupees);
 
-		driver.getTitle();
+		String pageTitle = driver.getTitle();
+                System.out.println("Page title is: " + pageTitle);
+		
 		driver.close();
 	}
 }
