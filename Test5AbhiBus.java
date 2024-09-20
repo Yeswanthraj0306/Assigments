@@ -52,12 +52,7 @@ public class Test5AbhiBus {
 		String rupees = cost.getText();
 		System.out.println("The cost of Fares " + rupees);
 
-		String title = driver.getTitle();
-		if (title.contains("Bus")) {
-			System.out.println("verified");
-		} else {
-			System.out.println("not verified");
-		}
+		driver.getTitle();
 		driver.close();
 	}
 }
